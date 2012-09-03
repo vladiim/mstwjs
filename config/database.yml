@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: mstwjs_development
+  pool: 5
+  username: mass
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: mstwjs_test
+  pool: 5
+  username: mass
+  password:
+  host: localhost
